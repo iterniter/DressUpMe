@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF845F69C14D013788E03E6 /* Pods_dressMeUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987D0B9ED8ADA4161DCE9636 /* Pods_dressMeUp.framework */; };
+		3393F93C2013B7FE00220372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F93B2013B7FE00220372 /* AppDelegate.swift */; };
+		3393F93E2013B7FE00220372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F93D2013B7FE00220372 /* ViewController.swift */; };
+		3393F9412013B7FE00220372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3393F93F2013B7FE00220372 /* Main.storyboard */; };
+		3393F9432013B7FE00220372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3393F9422013B7FE00220372 /* Assets.xcassets */; };
+		3393F9462013B7FE00220372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3393F9442013B7FE00220372 /* LaunchScreen.storyboard */; };
+		3393F94E2013F68E00220372 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3393F94D2013F68D00220372 /* GoogleService-Info.plist */; };
+		3393F9502014027300220372 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F94F2014027300220372 /* SignUpViewController.swift */; };
+		3393F9542014853100220372 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F9532014853100220372 /* Signin.swift */; };
+		3393F95E2014A09000220372 /* WeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F95D2014A09000220372 /* WeTableViewController.swift */; };
+		3393F9602014A21100220372 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F95F2014A21000220372 /* Weather.swift */; };
+		3393F9622014CBAA00220372 /* Mycloset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F9612014CBAA00220372 /* Mycloset.swift */; };
+		3393F9642014D75800220372 /* PhotoMato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393F9632014D75800220372 /* PhotoMato.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3393F9382013B7FD00220372 /* dressMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dressMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3393F93B2013B7FE00220372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3393F93D2013B7FE00220372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3393F9402013B7FE00220372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3393F9422013B7FE00220372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3393F9452013B7FE00220372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3393F9472013B7FE00220372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3393F94D2013F68D00220372 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3393F94F2014027300220372 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3393F9532014853100220372 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
+		3393F95D2014A09000220372 /* WeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTableViewController.swift; sourceTree = "<group>"; };
+		3393F95F2014A21000220372 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		3393F9612014CBAA00220372 /* Mycloset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mycloset.swift; sourceTree = "<group>"; };
+		3393F9632014D75800220372 /* PhotoMato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMato.swift; sourceTree = "<group>"; };
+		987D0B9ED8ADA4161DCE9636 /* Pods_dressMeUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dressMeUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D0F8A3B6E730CCAB26155C /* Pods-dressMeUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dressMeUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-dressMeUp/Pods-dressMeUp.release.xcconfig"; sourceTree = "<group>"; };
+		FFC9175A441429FF047BDCDB /* Pods-dressMeUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dressMeUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dressMeUp/Pods-dressMeUp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3393F9352013B7FD00220372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF845F69C14D013788E03E6 /* Pods_dressMeUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A42ED5A58CBC6FECABFB0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFC9175A441429FF047BDCDB /* Pods-dressMeUp.debug.xcconfig */,
+				A2D0F8A3B6E730CCAB26155C /* Pods-dressMeUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3393F92F2013B7FD00220372 = {
+			isa = PBXGroup;
+			children = (
+				3393F93A2013B7FD00220372 /* dressMeUp */,
+				3393F9392013B7FD00220372 /* Products */,
+				08A42ED5A58CBC6FECABFB0F /* Pods */,
+				5A70A335284F28EFB82E1BBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3393F9392013B7FD00220372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3393F9382013B7FD00220372 /* dressMeUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3393F93A2013B7FD00220372 /* dressMeUp */ = {
+			isa = PBXGroup;
+			children = (
+				3393F93B2013B7FE00220372 /* AppDelegate.swift */,
+				3393F93D2013B7FE00220372 /* ViewController.swift */,
+				3393F93F2013B7FE00220372 /* Main.storyboard */,
+				3393F95F2014A21000220372 /* Weather.swift */,
+				3393F95D2014A09000220372 /* WeTableViewController.swift */,
+				3393F9422013B7FE00220372 /* Assets.xcassets */,
+				3393F9442013B7FE00220372 /* LaunchScreen.storyboard */,
+				3393F94F2014027300220372 /* SignUpViewController.swift */,
+				3393F9472013B7FE00220372 /* Info.plist */,
+				3393F94D2013F68D00220372 /* GoogleService-Info.plist */,
+				3393F9532014853100220372 /* Signin.swift */,
+				3393F9612014CBAA00220372 /* Mycloset.swift */,
+				3393F9632014D75800220372 /* PhotoMato.swift */,
+			);
+			path = dressMeUp;
+			sourceTree = "<group>";
+		};
+		5A70A335284F28EFB82E1BBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				987D0B9ED8ADA4161DCE9636 /* Pods_dressMeUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3393F9372013B7FD00220372 /* dressMeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3393F94A2013B7FE00220372 /* Build configuration list for PBXNativeTarget "dressMeUp" */;
+			buildPhases = (
+				3A5AF6AC6C196C5759F6B06D /* [CP] Check Pods Manifest.lock */,
+				3393F9342013B7FD00220372 /* Sources */,
+				3393F9352013B7FD00220372 /* Frameworks */,
+				3393F9362013B7FD00220372 /* Resources */,
+				C76A4F21ACFA2FDEB8E7180F /* [CP] Embed Pods Frameworks */,
+				94024B0A07FED6FD16C366DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dressMeUp;
+			productName = dressMeUp;
+			productReference = 3393F9382013B7FD00220372 /* dressMeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3393F9302013B7FD00220372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "khalil bennani";
+				TargetAttributes = {
+					3393F9372013B7FD00220372 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3393F9332013B7FD00220372 /* Build configuration list for PBXProject "dressMeUp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3393F92F2013B7FD00220372;
+			productRefGroup = 3393F9392013B7FD00220372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3393F9372013B7FD00220372 /* dressMeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3393F9362013B7FD00220372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3393F9462013B7FE00220372 /* LaunchScreen.storyboard in Resources */,
+				3393F94E2013F68E00220372 /* GoogleService-Info.plist in Resources */,
+				3393F9432013B7FE00220372 /* Assets.xcassets in Resources */,
+				3393F9412013B7FE00220372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A5AF6AC6C196C5759F6B06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dressMeUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94024B0A07FED6FD16C366DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dressMeUp/Pods-dressMeUp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dressMeUp/Pods-dressMeUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76A4F21ACFA2FDEB8E7180F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dressMeUp/Pods-dressMeUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dressMeUp/Pods-dressMeUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3393F9342013B7FD00220372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3393F9502014027300220372 /* SignUpViewController.swift in Sources */,
+				3393F93E2013B7FE00220372 /* ViewController.swift in Sources */,
+				3393F9622014CBAA00220372 /* Mycloset.swift in Sources */,
+				3393F93C2013B7FE00220372 /* AppDelegate.swift in Sources */,
+				3393F9542014853100220372 /* Signin.swift in Sources */,
+				3393F9642014D75800220372 /* PhotoMato.swift in Sources */,
+				3393F95E2014A09000220372 /* WeTableViewController.swift in Sources */,
+				3393F9602014A21100220372 /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3393F93F2013B7FE00220372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3393F9402013B7FE00220372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3393F9442013B7FE00220372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3393F9452013B7FE00220372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3393F9482013B7FE00220372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3393F9492013B7FE00220372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3393F94B2013B7FE00220372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC9175A441429FF047BDCDB /* Pods-dressMeUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G94E28J788;
+				INFOPLIST_FILE = dressMeUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dressMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3393F94C2013B7FE00220372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D0F8A3B6E730CCAB26155C /* Pods-dressMeUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G94E28J788;
+				INFOPLIST_FILE = dressMeUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dressMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3393F9332013B7FD00220372 /* Build configuration list for PBXProject "dressMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3393F9482013B7FE00220372 /* Debug */,
+				3393F9492013B7FE00220372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3393F94A2013B7FE00220372 /* Build configuration list for PBXNativeTarget "dressMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3393F94B2013B7FE00220372 /* Debug */,
+				3393F94C2013B7FE00220372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3393F9302013B7FD00220372 /* Project object */;
+}
